@@ -20,49 +20,37 @@
             <input name="email" type="email" id="email" required placeholder="Enter your email">
             <label id="number-label" for="number">Age (optional)</label>
             <input name="number" min="10" max="120" type="number" id="number" placeholder="Age">
-            <label for="role">Which option best describes your current role?</label>
+            <label for="role">Which option best describes your working status?</label>
             <select name="role" id="dropdown" required>
-                <option value="">select the current role</option>
+                <option value="">select the current working status</option>
                 <option value="1">Student</option>
                 <option value="2">Full-Time Job</option>
-                <option value="3">Full-Time Learner</option>
-                <option value="4">Prefer not to say</option>
-                <option value="5">Other</option>
+                <option value="3">Part-Time Learner</option>
+                <option value="4">Other</option>
             </select>
         </fieldset>
         <fieldset>
             <label>Would you recommed our service to a friend?</label>
-            <input id="definitely" name="satisfaction" type="radio" value="Definitely">
-            <label for="definitely">Definitely</label>
-            <input id="maybe" name="satisfaction" type="radio" value="Maybe">
-            <label for="maybe">Maybe</label>
-            <input id="not-sure" name="satisfaction" type="radio" value="Not sure">
-            <label for="not-sure">Not sure</label>
+            <label for="definitely"><input id="definitely" name="satisfaction" type="radio" value="Definitely">Definitely</label>
+            <label for="maybe"><input id="maybe" name="satisfaction" type="radio" value="Maybe">Maybe</label>
+            <label for="not-sure"><input id="not-sure" name="satisfaction" type="radio" value="Not sure">Not sure</label>
         </fieldset>
         <fieldset>
             <label for="favorite">What is your favorite feature of our service?</label>
             <select name="favorite" id="favorite">
                 <option value="">Select an option</option>
-                <option value="1">Challenges</option>
-                <option value="2">Projects</option>
-                <option value="3">Community</option>
-                <option value="4">Opne Source</option>
+                <option value="1">Diversity of Our Products</option>
+                <option value="2">Support Services</option>
+                <option value="3">Being Easily Accessd</option>
+                <option value="4">Price</option>
             </select>
         </fieldset>
         <fieldset>
-            <label>What would you like to see improved?</label>
-            <input id="front-end-projects" type="checkbox" value="Font-end Projects">
-            <label for="front-end-projects">Front-end Projects</label>
-            <input id="back-end-projects" type="checkbox" value="Back-end Projects">
-            <label for="back-end-projects">Back-end Projects</label>
-            <input id="data-visualization" type="checkbox" value="Data Visualization">
-            <label for="data-visualization">Data Visualization</label>
-            <input id="challenges" type="checkbox" value="Challenges">
-            <label for="challenges">Challenges</label>
-            <input id="open-source-community" type="checkbox" value="Open Source Community">
-            <label for="open-source-community">Open Source Community</label>
-            <input id="forum" type="checkbox" value="Forum">
-            <label for="forum">Forum</label>
+            <label>What would you like us to work on?</label>
+            <label for="product-diversity"><input id="product-diversity" type="checkbox" value="Product Diversity">Product Diversity</label>
+            <label for="support-services"><input id="support-services" type="checkbox" value="Support Services">Support Services</label>
+            <label for="being-easliy-accessed"><input id="being-easliy-accessed" type="checkbox" value="Being Easily Accessed">Being Easily Accessed</label>
+            <label for="price"><input id="price" type="checkbox" value="Price">Price</label>
         </fieldset>
         <fieldset>
             <label>Any comment or suggestion?</label>
