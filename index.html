@@ -11,7 +11,7 @@
 
 <body>
     <h1 id="title">Survey Form</h1>
-    <p id="description">Thank you for taking the time to help us improve the platform</p>
+    <p id="description"><i>Thank you for taking the time to help us improve the platform</i></p>
     <form id="survey-form">
         <fieldset>
             <label id="name-label" for="name">Name</label>
@@ -22,7 +22,7 @@
             <input name="number" min="10" max="120" type="number" id="number" placeholder="Age">
             <label for="role">Which option best describes your working status?</label>
             <select name="role" id="dropdown" required>
-                <option value="">select the current working status</option>
+                <option value disabled selected>select the current working status</option>
                 <option value="1">Student</option>
                 <option value="2">Full-Time Job</option>
                 <option value="3">Part-Time Learner</option>
@@ -38,7 +38,7 @@
         <fieldset>
             <label for="favorite">What is your favorite feature of our service?</label>
             <select name="favorite" id="favorite">
-                <option value="">Select an option</option>
+                <option value disabled selected>Select an option</option>
                 <option value="1">Diversity of Our Products</option>
                 <option value="2">Support Services</option>
                 <option value="3">Being Easily Accessd</option>
@@ -54,7 +54,7 @@
         </fieldset>
         <fieldset>
             <label>Any comment or suggestion?</label>
-            <textarea name="comment" id="comment" rows="10"></textarea>
+            <textarea name="comment" id="comment" rows="5"></textarea>
         </fieldset>
         <input id="submit" type="submit">
     </form>
